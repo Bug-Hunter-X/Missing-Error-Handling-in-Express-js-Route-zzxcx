@@ -1,0 +1,3 @@
+# Express.js Route Missing Error Handling
+
+This example demonstrates a common error in Express.js routes: missing error handling for invalid input or missing resources.  The provided code attempts to fetch a user based on an ID parameter, but lacks checks for non-numeric IDs and missing users.  This can lead to unexpected crashes or error messages to the client.  The solution shows proper error handling to address this issue.
